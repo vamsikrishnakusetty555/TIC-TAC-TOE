@@ -86,7 +86,7 @@ if choice==1:
             print()
             if i % 2 != 0:
                 print(">>>Player - X")
-                r, c = input("Enter (Row,Column) number to Fix the Spot: ").split(",")
+                r, c = input("Enter (Row,Column) number to Fix the Spot: ").split(","))
                 position_check(r, c, i, board)
                 result = win_check(board, i)
                 if result == "X":
